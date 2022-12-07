@@ -1,4 +1,4 @@
-module github.com/pteich/caddy-tlsconsul
+module github.com/jmordica/caddy-tlsconsul
 
 go 1.16
 
@@ -25,5 +25,3 @@ require (
 	golang.org/x/xerrors v0.0.0-20220517211312-f3a8303e98df // indirect
 	google.golang.org/protobuf v1.28.0 // indirect
 )
-
-replace github.com/pteich/caddy-tlsconsul => github.com/jmordica/caddy-tlsconsul
