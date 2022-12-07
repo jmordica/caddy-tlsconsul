@@ -5,7 +5,7 @@ const (
 	DefaultPrefix = "caddytls"
 
 	// DefaultAESKey needs to be 32 bytes long
-	DefaultAESKey = "consultls-1234567890-caddytls-32"
+	DefaultAESKey = ""
 
 	// DefaultValuePrefix sets a prefix to KV values to check validation
 	DefaultValuePrefix = "caddy-storage-consul"
