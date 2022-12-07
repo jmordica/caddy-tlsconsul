@@ -82,9 +82,9 @@ func (cs *ConsulStorage) DecryptStorageData(bytes []byte) (*StorageData, error) 
 	}
 
 	// Simple sanity check of the beginning of the byte array just to check
-	if len(bytes) < len(cs.ValuePrefix) || string(bytes[:len(cs.ValuePrefix)]) != cs.ValuePrefix {
-		return nil, errors.New("invalid data format")
-	}
+	//if len(bytes) < len(cs.ValuePrefix) || string(bytes[:len(cs.ValuePrefix)]) != cs.ValuePrefix {
+	//	return nil, errors.New("invalid data format")
+	//}
 
 	// Now just json unmarshal
 	data := &StorageData{}
